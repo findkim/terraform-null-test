@@ -11,5 +11,8 @@ terraform {
       source = "findkim/gooddocs"
       version = "0.1.4"
     }
+    dne = {
+      source = "custom-registry.io/findkim/dne"
+    }
   }
 }
